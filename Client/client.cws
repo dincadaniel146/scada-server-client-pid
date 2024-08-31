@@ -1,0 +1,282 @@
+[Workspace Header]
+Version = 2000
+Pathname Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Pathname Line0002 = "cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2020"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2020"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/c/Program Files/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "client.prj"
+Drag Bar Left = 218
+Window Top = 204
+Window Left = 499
+Window Bottom = 1001
+Window Right = 1785
+Maximized = False
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "Path Name"
+Number of Opened Files = 11
+Window Confinement Region Enabled = True
+MainColumnWidth = 201
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 2000
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/04_Form"
+Path Line0002 = "atare_Transmisie_TCP_TX_catre_Server.h"
+File Type = "Include"
+Disk Date = 3787909005
+In Projects = "1,"
+Source Window State = "1,24,24,24,50,50,50,0,0,0,0,41,0,41,0,0,0,0,24,50,411,768,1,0,"
+Window Top = 122
+Window Left = 58
+Window Z-Order = 7
+
+[File 0002]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/05_Form"
+Path Line0002 = "atare_TCP_RX_de_la_Server.h"
+File Type = "Include"
+Disk Date = 3788076934
+In Projects = "1,"
+Source Window State = "1,18,18,18,54,54,54,0,0,0,0,0,0,0,0,0,0,0,18,54,401,609,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 8
+
+[File 0003]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3788079514
+In Projects = "1,"
+Source Window State = "1,157,157,157,0,0,0,0,0,0,0,0,0,0,0,0,90,0,157,0,401,609,1,0,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 1
+
+[File 0004]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/00_Vari"
+Path Line0002 = "abile_Globale_Client.h"
+File Type = "Include"
+Disk Date = 3787943685
+In Projects = "1,"
+Source Window State = "1,26,26,26,22,22,22,0,0,0,0,0,0,0,0,0,0,0,26,22,401,609,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 4
+
+[File 0005]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/01_Init"
+Path Line0002 = "ializare_Aplicatie_Client.h"
+File Type = "Include"
+Disk Date = 3787907559
+In Projects = "1,"
+Source Window State = "1,9,9,9,0,0,0,0,0,0,0,14,0,14,0,0,0,0,9,0,411,768,1,0,"
+Window Top = 62
+Window Left = 26
+Window Z-Order = 6
+
+[File 0006]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/02_Func"
+Path Line0002 = "tii_Utilitare_Client.h"
+File Type = "Include"
+Disk Date = 3787939957
+In Projects = "1,"
+Source Window State = "1,67,67,67,88,88,88,0,0,0,0,0,0,0,0,0,32,0,67,88,395,741,1,0,"
+Window Top = 62
+Window Left = 26
+Window Z-Order = 5
+
+[File 0007]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/07_Elem"
+Path Line0002 = "ente_FEEDBACK.h"
+File Type = "Include"
+Disk Date = 3787907843
+In Projects = "1,"
+Source Window State = "1,30,30,30,72,72,72,0,0,0,0,0,0,0,0,0,0,0,30,72,401,609,1,0,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 11
+
+[File 0008]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3787921944
+In Projects = "1,"
+Source Window State = "1,59,59,59,22,22,22,0,0,0,0,0,0,0,0,0,24,0,59,22,326,602,1,0,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 9
+
+[File 0009]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/06_rece"
+Path Line0002 = "ptie_TCP_INT_de_la_Server.h"
+File Type = "Include"
+Disk Date = 3690140811
+In Projects = "1,"
+Source Window State = "1,4,4,4,5,5,5,0,0,0,0,33,0,33,0,0,0,0,4,5,411,768,1,0,"
+Window Top = 152
+Window Left = 74
+Window Z-Order = 10
+
+[File 0010]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Path Line0002 = "uir"
+File Type = "User Interface Resource"
+Disk Date = 3788180117
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 349
+Window Width = 635
+Window Z-Order = 3
+
+[File 0011]
+Path Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/08_Gene"
+Path Line0002 = "rare_Semnale.h"
+File Type = "Include"
+Disk Date = 3788077662
+In Projects = "1,"
+Source Window State = "1,118,118,118,18,29,18,0,3,0,0,0,0,0,0,0,83,0,118,29,401,770,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 2
+
+[Tab Order]
+Tab 0001 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/07_Elem"
+Tab 0001 Line0002 = "ente_FEEDBACK.h"
+Tab 0002 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/06_rece"
+Tab 0002 Line0002 = "ptie_TCP_INT_de_la_Server.h"
+Tab 0003 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Tab 0003 Line0002 = "h"
+Tab 0004 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/05_Form"
+Tab 0004 Line0002 = "atare_TCP_RX_de_la_Server.h"
+Tab 0005 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/04_Form"
+Tab 0005 Line0002 = "atare_Transmisie_TCP_TX_catre_Server.h"
+Tab 0006 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/01_Init"
+Tab 0006 Line0002 = "ializare_Aplicatie_Client.h"
+Tab 0007 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/02_Func"
+Tab 0007 Line0002 = "tii_Utilitare_Client.h"
+Tab 0008 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/00_Vari"
+Tab 0008 Line0002 = "abile_Globale_Client.h"
+Tab 0009 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Tab 0009 Line0002 = "uir"
+Tab 0010 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/08_Gene"
+Tab 0010 Line0002 = "rare_Semnale.h"
+Tab 0011 Line0001 = "/c/Users/dinca/Desktop/Cursuri & Lucrari/SCADA lucrari/Tema SCADA/Client/client."
+Tab 0011 Line0002 = "c"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

@@ -1,0 +1,51 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "00_Variabile_Globale_Server.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "01_Initializare_Aplicatie_Server.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "02_Functii_Utilitare_Server.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "04_Formatare_Transmisie_TCP_TX_catre_Client.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "05_Formatare_TCP_RX_de_la_Client.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "06_receptie_TCP_INT_de_la_client.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "07_Elemente_FEEDBACK.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "10_Elemente_Schema_Sinoptica.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "server.c" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+LOCATE on "server.h" = "c:\\Users\\student\\Desktop\\t1_scada\\Server" ;
+Object "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj" : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\server.c" ;
+FILENUM on "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj" = 1 ;
+DEFPROTS on "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj" = "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj" = "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj.out" ;
+PrjObjects += "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\server.obj" ;
+Object "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\resources.res" : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\resources.res" : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\demo_server.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\demo_server.exe" : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\demo_server.exe" : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\student\\Desktop\\t1_scada\\Server\\cvibuild.demo_server\\Debug\\demo_server.exe" ;
